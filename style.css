@@ -11,7 +11,7 @@ header {
 	padding-top: 20px;
 	font-family: 'Great Vibes', cursive;
 	text-shadow: 2px 2px #ff0000;
-	height: 100px;
+	height: 10vh;
 	display: flex;
 	width: 1000px;
   margin-top: -20px;
@@ -27,6 +27,7 @@ header {
 
 .container {
     display: grid;
+    height: 90vh;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 25% 25% 25% 25%;
     padding-right: 10%;
