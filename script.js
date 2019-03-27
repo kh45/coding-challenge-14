@@ -91,7 +91,7 @@ function flipBack(currentGuess) {
 }
 
 
-function letsgo() {
+function letsgo(event) {  //Passed event as an argument because Firefox does not recognize EVENT as global
 	if (event.target.nodeName == "DIV") {  //This is meant to catch a bug if the user double clicks on a card, it will stop it from flipping the entire board
 		return false;
 	}
