@@ -74,5 +74,5 @@ header {
 }
 
 .faceup {
-
+	backface-visibility: hidden;
 }
