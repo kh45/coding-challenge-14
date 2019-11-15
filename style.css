@@ -73,6 +73,6 @@ header {
   transform: rotateY(180deg);
 }
 
-.faceup {
-	backface-visibility: hidden;
-}
+/* .faceup {
+	backface-visibility: hidden; stopped working in chrome for some reason;
+} */
